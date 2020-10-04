@@ -2,5 +2,5 @@
 
 #include <vector>
 
-double ArithmeticAverage(std::vector<int> first, std::vector<int> second);
-double Distance(std::vector<int> first, std::vector<int> second);
+double ArithmeticAverage(const std::vector<int>& first, const std::vector<int>& second);
+double Distance(const std::vector<int>& first, const std::vector<int>& second);
